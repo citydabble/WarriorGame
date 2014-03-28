@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCE9198D18E5478F0023BFAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9198C18E5478F0023BFAC /* Foundation.framework */; };
+		BCE9198F18E5478F0023BFAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9198E18E5478F0023BFAC /* CoreGraphics.framework */; };
+		BCE9199118E5478F0023BFAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9199018E5478F0023BFAC /* UIKit.framework */; };
+		BCE9199718E5478F0023BFAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCE9199518E5478F0023BFAC /* InfoPlist.strings */; };
+		BCE9199918E5478F0023BFAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9199818E5478F0023BFAC /* main.m */; };
+		BCE9199D18E5478F0023BFAC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE9199C18E5478F0023BFAC /* AppDelegate.m */; };
+		BCE919A018E5478F0023BFAC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE9199E18E5478F0023BFAC /* Main_iPhone.storyboard */; };
+		BCE919A318E5478F0023BFAC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCE919A118E5478F0023BFAC /* Main_iPad.storyboard */; };
+		BCE919A618E5478F0023BFAC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE919A518E5478F0023BFAC /* ViewController.m */; };
+		BCE919A818E5478F0023BFAC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE919A718E5478F0023BFAC /* Images.xcassets */; };
+		BCE919AF18E547900023BFAC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE919AE18E547900023BFAC /* XCTest.framework */; };
+		BCE919B018E547900023BFAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9198C18E5478F0023BFAC /* Foundation.framework */; };
+		BCE919B118E547900023BFAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9199018E5478F0023BFAC /* UIKit.framework */; };
+		BCE919B918E547900023BFAC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCE919B718E547900023BFAC /* InfoPlist.strings */; };
+		BCE919BB18E547900023BFAC /* WarriorGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE919BA18E547900023BFAC /* WarriorGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCE919B218E547900023BFAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCE9198118E5478F0023BFAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCE9198818E5478F0023BFAC;
+			remoteInfo = WarriorGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCE9198918E5478F0023BFAC /* WarriorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarriorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE9198C18E5478F0023BFAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BCE9198E18E5478F0023BFAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BCE9199018E5478F0023BFAC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BCE9199418E5478F0023BFAC /* WarriorGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WarriorGame-Info.plist"; sourceTree = "<group>"; };
+		BCE9199618E5478F0023BFAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCE9199818E5478F0023BFAC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCE9199A18E5478F0023BFAC /* WarriorGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WarriorGame-Prefix.pch"; sourceTree = "<group>"; };
+		BCE9199B18E5478F0023BFAC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCE9199C18E5478F0023BFAC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCE9199F18E5478F0023BFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		BCE919A218E5478F0023BFAC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		BCE919A418E5478F0023BFAC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCE919A518E5478F0023BFAC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCE919A718E5478F0023BFAC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BCE919AD18E547900023BFAC /* WarriorGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WarriorGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCE919AE18E547900023BFAC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BCE919B618E547900023BFAC /* WarriorGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WarriorGameTests-Info.plist"; sourceTree = "<group>"; };
+		BCE919B818E547900023BFAC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BCE919BA18E547900023BFAC /* WarriorGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WarriorGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCE9198618E5478F0023BFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE9198F18E5478F0023BFAC /* CoreGraphics.framework in Frameworks */,
+				BCE9199118E5478F0023BFAC /* UIKit.framework in Frameworks */,
+				BCE9198D18E5478F0023BFAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE919AA18E547900023BFAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE919AF18E547900023BFAC /* XCTest.framework in Frameworks */,
+				BCE919B118E547900023BFAC /* UIKit.framework in Frameworks */,
+				BCE919B018E547900023BFAC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCE9198018E5478F0023BFAC = {
+			isa = PBXGroup;
+			children = (
+				BCE9199218E5478F0023BFAC /* WarriorGame */,
+				BCE919B418E547900023BFAC /* WarriorGameTests */,
+				BCE9198B18E5478F0023BFAC /* Frameworks */,
+				BCE9198A18E5478F0023BFAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCE9198A18E5478F0023BFAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9198918E5478F0023BFAC /* WarriorGame.app */,
+				BCE919AD18E547900023BFAC /* WarriorGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCE9198B18E5478F0023BFAC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9198C18E5478F0023BFAC /* Foundation.framework */,
+				BCE9198E18E5478F0023BFAC /* CoreGraphics.framework */,
+				BCE9199018E5478F0023BFAC /* UIKit.framework */,
+				BCE919AE18E547900023BFAC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCE9199218E5478F0023BFAC /* WarriorGame */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9199B18E5478F0023BFAC /* AppDelegate.h */,
+				BCE9199C18E5478F0023BFAC /* AppDelegate.m */,
+				BCE9199E18E5478F0023BFAC /* Main_iPhone.storyboard */,
+				BCE919A118E5478F0023BFAC /* Main_iPad.storyboard */,
+				BCE919A418E5478F0023BFAC /* ViewController.h */,
+				BCE919A518E5478F0023BFAC /* ViewController.m */,
+				BCE919A718E5478F0023BFAC /* Images.xcassets */,
+				BCE9199318E5478F0023BFAC /* Supporting Files */,
+			);
+			path = WarriorGame;
+			sourceTree = "<group>";
+		};
+		BCE9199318E5478F0023BFAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCE9199418E5478F0023BFAC /* WarriorGame-Info.plist */,
+				BCE9199518E5478F0023BFAC /* InfoPlist.strings */,
+				BCE9199818E5478F0023BFAC /* main.m */,
+				BCE9199A18E5478F0023BFAC /* WarriorGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCE919B418E547900023BFAC /* WarriorGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCE919BA18E547900023BFAC /* WarriorGameTests.m */,
+				BCE919B518E547900023BFAC /* Supporting Files */,
+			);
+			path = WarriorGameTests;
+			sourceTree = "<group>";
+		};
+		BCE919B518E547900023BFAC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCE919B618E547900023BFAC /* WarriorGameTests-Info.plist */,
+				BCE919B718E547900023BFAC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCE9198818E5478F0023BFAC /* WarriorGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE919BE18E547900023BFAC /* Build configuration list for PBXNativeTarget "WarriorGame" */;
+			buildPhases = (
+				BCE9198518E5478F0023BFAC /* Sources */,
+				BCE9198618E5478F0023BFAC /* Frameworks */,
+				BCE9198718E5478F0023BFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WarriorGame;
+			productName = WarriorGame;
+			productReference = BCE9198918E5478F0023BFAC /* WarriorGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCE919AC18E547900023BFAC /* WarriorGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCE919C118E547900023BFAC /* Build configuration list for PBXNativeTarget "WarriorGameTests" */;
+			buildPhases = (
+				BCE919A918E547900023BFAC /* Sources */,
+				BCE919AA18E547900023BFAC /* Frameworks */,
+				BCE919AB18E547900023BFAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCE919B318E547900023BFAC /* PBXTargetDependency */,
+			);
+			name = WarriorGameTests;
+			productName = WarriorGameTests;
+			productReference = BCE919AD18E547900023BFAC /* WarriorGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCE9198118E5478F0023BFAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Hayden;
+				TargetAttributes = {
+					BCE919AC18E547900023BFAC = {
+						TestTargetID = BCE9198818E5478F0023BFAC;
+					};
+				};
+			};
+			buildConfigurationList = BCE9198418E5478F0023BFAC /* Build configuration list for PBXProject "WarriorGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCE9198018E5478F0023BFAC;
+			productRefGroup = BCE9198A18E5478F0023BFAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCE9198818E5478F0023BFAC /* WarriorGame */,
+				BCE919AC18E547900023BFAC /* WarriorGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCE9198718E5478F0023BFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE919A318E5478F0023BFAC /* Main_iPad.storyboard in Resources */,
+				BCE919A818E5478F0023BFAC /* Images.xcassets in Resources */,
+				BCE919A018E5478F0023BFAC /* Main_iPhone.storyboard in Resources */,
+				BCE9199718E5478F0023BFAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE919AB18E547900023BFAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE919B918E547900023BFAC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCE9198518E5478F0023BFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE919A618E5478F0023BFAC /* ViewController.m in Sources */,
+				BCE9199D18E5478F0023BFAC /* AppDelegate.m in Sources */,
+				BCE9199918E5478F0023BFAC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCE919A918E547900023BFAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCE919BB18E547900023BFAC /* WarriorGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCE919B318E547900023BFAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCE9198818E5478F0023BFAC /* WarriorGame */;
+			targetProxy = BCE919B218E547900023BFAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCE9199518E5478F0023BFAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE9199618E5478F0023BFAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BCE9199E18E5478F0023BFAC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE9199F18E5478F0023BFAC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BCE919A118E5478F0023BFAC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE919A218E5478F0023BFAC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BCE919B718E547900023BFAC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCE919B818E547900023BFAC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCE919BC18E547900023BFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCE919BD18E547900023BFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCE919BF18E547900023BFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarriorGame/WarriorGame-Prefix.pch";
+				INFOPLIST_FILE = "WarriorGame/WarriorGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BCE919C018E547900023BFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarriorGame/WarriorGame-Prefix.pch";
+				INFOPLIST_FILE = "WarriorGame/WarriorGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BCE919C218E547900023BFAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WarriorGame.app/WarriorGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarriorGame/WarriorGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "WarriorGameTests/WarriorGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BCE919C318E547900023BFAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WarriorGame.app/WarriorGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WarriorGame/WarriorGame-Prefix.pch";
+				INFOPLIST_FILE = "WarriorGameTests/WarriorGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCE9198418E5478F0023BFAC /* Build configuration list for PBXProject "WarriorGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE919BC18E547900023BFAC /* Debug */,
+				BCE919BD18E547900023BFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCE919BE18E547900023BFAC /* Build configuration list for PBXNativeTarget "WarriorGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE919BF18E547900023BFAC /* Debug */,
+				BCE919C018E547900023BFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCE919C118E547900023BFAC /* Build configuration list for PBXNativeTarget "WarriorGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCE919C218E547900023BFAC /* Debug */,
+				BCE919C318E547900023BFAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCE9198118E5478F0023BFAC /* Project object */;
+}
