@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BCE41B7F18EFD155006E5C5A /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE41B7E18EFD155006E5C5A /* Tile.m */; };
+		BCE41B8218EFD204006E5C5A /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE41B8118EFD204006E5C5A /* Factory.m */; };
 		BCE9198D18E5478F0023BFAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9198C18E5478F0023BFAC /* Foundation.framework */; };
 		BCE9198F18E5478F0023BFAC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9198E18E5478F0023BFAC /* CoreGraphics.framework */; };
 		BCE9199118E5478F0023BFAC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9199018E5478F0023BFAC /* UIKit.framework */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BCE41B7D18EFD155006E5C5A /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		BCE41B7E18EFD155006E5C5A /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		BCE41B8018EFD204006E5C5A /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
+		BCE41B8118EFD204006E5C5A /* Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Factory.m; sourceTree = "<group>"; };
 		BCE9198918E5478F0023BFAC /* WarriorGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WarriorGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE9198C18E5478F0023BFAC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BCE9198E18E5478F0023BFAC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,6 +87,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BCE41B7C18EFD120006E5C5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCE41B8018EFD204006E5C5A /* Factory.h */,
+				BCE41B8118EFD204006E5C5A /* Factory.m */,
+				BCE41B7D18EFD155006E5C5A /* Tile.h */,
+				BCE41B7E18EFD155006E5C5A /* Tile.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		BCE9198018E5478F0023BFAC = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +131,7 @@
 		BCE9199218E5478F0023BFAC /* WarriorGame */ = {
 			isa = PBXGroup;
 			children = (
+				BCE41B7C18EFD120006E5C5A /* Model */,
 				BCE9199B18E5478F0023BFAC /* AppDelegate.h */,
 				BCE9199C18E5478F0023BFAC /* AppDelegate.m */,
 				BCE9199E18E5478F0023BFAC /* Main_iPhone.storyboard */,
@@ -253,9 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCE41B8218EFD204006E5C5A /* Factory.m in Sources */,
 				BCE919A618E5478F0023BFAC /* ViewController.m in Sources */,
 				BCE9199D18E5478F0023BFAC /* AppDelegate.m in Sources */,
 				BCE9199918E5478F0023BFAC /* main.m in Sources */,
+				BCE41B7F18EFD155006E5C5A /* Tile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,6 +490,7 @@
 				BCE919C018E547900023BFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE919C118E547900023BFAC /* Build configuration list for PBXNativeTarget "WarriorGameTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +499,7 @@
 				BCE919C318E547900023BFAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
