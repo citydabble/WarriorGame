@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC19979C18F22F0D00787E59 /* Warrior.m in Sources */ = {isa = PBXBuildFile; fileRef = BC19979B18F22F0D00787E59 /* Warrior.m */; };
+		BC1997AA18F2326F00787E59 /* boss.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC19979E18F2326F00787E59 /* boss.jpg */; };
+		BC1997AB18F2326F00787E59 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC19979F18F2326F00787E59 /* cat.jpg */; };
+		BC1997AC18F2326F00787E59 /* Fantasy-Warrior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1997A018F2326F00787E59 /* Fantasy-Warrior.jpg */; };
+		BC1997AD18F2326F00787E59 /* rex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1997A118F2326F00787E59 /* rex.jpg */; };
+		BC1997AE18F2326F00787E59 /* w2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1997A218F2326F00787E59 /* w2.jpg */; };
+		BC1997AF18F2326F00787E59 /* w3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1997A318F2326F00787E59 /* w3.jpg */; };
+		BC1997B018F2326F00787E59 /* w4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1997A418F2326F00787E59 /* w4.jpg */; };
+		BC1997B118F2326F00787E59 /* w5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1997A518F2326F00787E59 /* w5.jpg */; };
+		BC1997B218F2326F00787E59 /* w6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1997A618F2326F00787E59 /* w6.jpg */; };
+		BC1997B318F2326F00787E59 /* warrior-queen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1997A718F2326F00787E59 /* warrior-queen.jpg */; };
+		BC1997B418F2326F00787E59 /* Warrior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1997A818F2326F00787E59 /* Warrior.jpg */; };
+		BC1997B518F2326F00787E59 /* woman-horse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC1997A918F2326F00787E59 /* woman-horse.jpg */; };
+		BC68E83318F7713B00F213C1 /* Weapon.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68E83218F7713B00F213C1 /* Weapon.m */; };
+		BC68E83618F771F600F213C1 /* Armor.m in Sources */ = {isa = PBXBuildFile; fileRef = BC68E83518F771F600F213C1 /* Armor.m */; };
 		BCE41B7F18EFD155006E5C5A /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE41B7E18EFD155006E5C5A /* Tile.m */; };
 		BCE41B8218EFD204006E5C5A /* Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE41B8118EFD204006E5C5A /* Factory.m */; };
 		BCE9198D18E5478F0023BFAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE9198C18E5478F0023BFAC /* Foundation.framework */; };
@@ -37,6 +52,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BC19979A18F22F0D00787E59 /* Warrior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Warrior.h; sourceTree = "<group>"; };
+		BC19979B18F22F0D00787E59 /* Warrior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warrior.m; sourceTree = "<group>"; };
+		BC19979E18F2326F00787E59 /* boss.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boss.jpg; sourceTree = "<group>"; };
+		BC19979F18F2326F00787E59 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		BC1997A018F2326F00787E59 /* Fantasy-Warrior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fantasy-Warrior.jpg"; sourceTree = "<group>"; };
+		BC1997A118F2326F00787E59 /* rex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rex.jpg; sourceTree = "<group>"; };
+		BC1997A218F2326F00787E59 /* w2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w2.jpg; sourceTree = "<group>"; };
+		BC1997A318F2326F00787E59 /* w3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w3.jpg; sourceTree = "<group>"; };
+		BC1997A418F2326F00787E59 /* w4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w4.jpg; sourceTree = "<group>"; };
+		BC1997A518F2326F00787E59 /* w5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w5.jpg; sourceTree = "<group>"; };
+		BC1997A618F2326F00787E59 /* w6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = w6.jpg; sourceTree = "<group>"; };
+		BC1997A718F2326F00787E59 /* warrior-queen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "warrior-queen.jpg"; sourceTree = "<group>"; };
+		BC1997A818F2326F00787E59 /* Warrior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Warrior.jpg; sourceTree = "<group>"; };
+		BC1997A918F2326F00787E59 /* woman-horse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "woman-horse.jpg"; sourceTree = "<group>"; };
+		BC68E83118F7713A00F213C1 /* Weapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Weapon.h; sourceTree = "<group>"; };
+		BC68E83218F7713B00F213C1 /* Weapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Weapon.m; sourceTree = "<group>"; };
+		BC68E83418F771F600F213C1 /* Armor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Armor.h; sourceTree = "<group>"; };
+		BC68E83518F771F600F213C1 /* Armor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Armor.m; sourceTree = "<group>"; };
 		BCE41B7D18EFD155006E5C5A /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
 		BCE41B7E18EFD155006E5C5A /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
 		BCE41B8018EFD204006E5C5A /* Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Factory.h; sourceTree = "<group>"; };
@@ -87,6 +120,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC19979D18F2325000787E59 /* ImagesForBackground */ = {
+			isa = PBXGroup;
+			children = (
+				BC19979E18F2326F00787E59 /* boss.jpg */,
+				BC19979F18F2326F00787E59 /* cat.jpg */,
+				BC1997A018F2326F00787E59 /* Fantasy-Warrior.jpg */,
+				BC1997A118F2326F00787E59 /* rex.jpg */,
+				BC1997A218F2326F00787E59 /* w2.jpg */,
+				BC1997A318F2326F00787E59 /* w3.jpg */,
+				BC1997A418F2326F00787E59 /* w4.jpg */,
+				BC1997A518F2326F00787E59 /* w5.jpg */,
+				BC1997A618F2326F00787E59 /* w6.jpg */,
+				BC1997A718F2326F00787E59 /* warrior-queen.jpg */,
+				BC1997A818F2326F00787E59 /* Warrior.jpg */,
+				BC1997A918F2326F00787E59 /* woman-horse.jpg */,
+			);
+			name = ImagesForBackground;
+			sourceTree = "<group>";
+		};
 		BCE41B7C18EFD120006E5C5A /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -94,6 +146,12 @@
 				BCE41B8118EFD204006E5C5A /* Factory.m */,
 				BCE41B7D18EFD155006E5C5A /* Tile.h */,
 				BCE41B7E18EFD155006E5C5A /* Tile.m */,
+				BC19979A18F22F0D00787E59 /* Warrior.h */,
+				BC19979B18F22F0D00787E59 /* Warrior.m */,
+				BC68E83118F7713A00F213C1 /* Weapon.h */,
+				BC68E83218F7713B00F213C1 /* Weapon.m */,
+				BC68E83418F771F600F213C1 /* Armor.h */,
+				BC68E83518F771F600F213C1 /* Armor.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -147,6 +205,7 @@
 		BCE9199318E5478F0023BFAC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				BC19979D18F2325000787E59 /* ImagesForBackground */,
 				BCE9199418E5478F0023BFAC /* WarriorGame-Info.plist */,
 				BCE9199518E5478F0023BFAC /* InfoPlist.strings */,
 				BCE9199818E5478F0023BFAC /* main.m */,
@@ -249,9 +308,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC1997B218F2326F00787E59 /* w6.jpg in Resources */,
+				BC1997AB18F2326F00787E59 /* cat.jpg in Resources */,
+				BC1997B418F2326F00787E59 /* Warrior.jpg in Resources */,
 				BCE919A318E5478F0023BFAC /* Main_iPad.storyboard in Resources */,
+				BC1997AA18F2326F00787E59 /* boss.jpg in Resources */,
+				BC1997AE18F2326F00787E59 /* w2.jpg in Resources */,
+				BC1997AC18F2326F00787E59 /* Fantasy-Warrior.jpg in Resources */,
+				BC1997AF18F2326F00787E59 /* w3.jpg in Resources */,
+				BC1997B318F2326F00787E59 /* warrior-queen.jpg in Resources */,
 				BCE919A818E5478F0023BFAC /* Images.xcassets in Resources */,
+				BC1997AD18F2326F00787E59 /* rex.jpg in Resources */,
 				BCE919A018E5478F0023BFAC /* Main_iPhone.storyboard in Resources */,
+				BC1997B118F2326F00787E59 /* w5.jpg in Resources */,
+				BC1997B018F2326F00787E59 /* w4.jpg in Resources */,
+				BC1997B518F2326F00787E59 /* woman-horse.jpg in Resources */,
 				BCE9199718E5478F0023BFAC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +342,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC68E83318F7713B00F213C1 /* Weapon.m in Sources */,
+				BC19979C18F22F0D00787E59 /* Warrior.m in Sources */,
 				BCE41B8218EFD204006E5C5A /* Factory.m in Sources */,
+				BC68E83618F771F600F213C1 /* Armor.m in Sources */,
 				BCE919A618E5478F0023BFAC /* ViewController.m in Sources */,
 				BCE9199D18E5478F0023BFAC /* AppDelegate.m in Sources */,
 				BCE9199918E5478F0023BFAC /* main.m in Sources */,

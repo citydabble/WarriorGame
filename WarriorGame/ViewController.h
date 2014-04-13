@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Warrior.h"
 
 @interface ViewController : UIViewController
 
@@ -14,6 +15,8 @@
 
 @property (nonatomic) CGPoint currentPoint;
 @property (nonatomic) NSArray *tiles;
+
+@property (strong, nonatomic) Warrior *warrior;
 
 // IBOutlets
 @property (strong, nonatomic) IBOutlet UIImageView *bgImageView;

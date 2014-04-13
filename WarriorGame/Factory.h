@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Warrior.h"
 
 @interface Factory : NSObject
 
 
 -(NSArray *) tiles;
+-(Warrior *) warrior;
 
 @end
